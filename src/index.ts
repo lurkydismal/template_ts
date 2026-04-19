@@ -20,4 +20,5 @@ function greeter(person: Person) {
 
 let user = new Student("Jane", "M.", "User");
 
-document.body.textContent = greeter(user);
+console.log(greeter(user));
+console.log(user.fullName);
